@@ -1,7 +1,7 @@
 <<!DOCTYPE html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
-  <link href="./css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
   <title>Derek's first git test page</title>
 </head>
 <Body>
@@ -10,17 +10,15 @@
     <li><a href="#about">About</a></li>
     <li><a href="#interests">Interests</a></li>
     <li><a href="#video">Video</a></li>
-  <div id="about" style="width:400">
-    <h2>About Derek</h2>
-    <img src="img/about.jpg" width="300" alt="A handsome man smiling." />
+  </ul>
+  <h2 id="about">About Derek</h2>
+    <img src="img/about.jpg" width="320px" alt="A handsome man smiling." />
     <p>I'm writing this paragraph to exercise the web development tools I'm
       learning while doing The Odin Project's self-paced curriculum. Up until
       now I've primarily been learning html to markup text; much of which I've
       implimented into this page. It is not a pretty page, but it
       <strong><em>is</strong></em> helping me learn.</p>
-  </div>
-  <div id="interests">
-    <h2>An <em>unordered</em> list of things I <span style="color:green">like</span>.</H2>
+  <h2 id="interests">An <em>unordered</em> list of things I <i>like</i>.</H2>
     <ul>
       <li>My <span style="color:magenta"><strong>Wife</span></strong></li>
       <li>My Dogs</li>
@@ -28,10 +26,8 @@
     </ul>
     <p>In addition to the above, I enjoy gaming, reading,
        listening to music, checking out new movies, and hanging out with my dogs.
-  </div>
-  <div id="video">
-    <h2>Video</h2>
-    <video src="https://player.vimeo.com/video/101965651" width="640" controls>video not supported</video>
-  </div>
-  <a href="./index.html">Home</a>
+  <br>
+  <h2 id="video">Video</h2>
+    <iframe src="https://player.vimeo.com/video/101965651" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <a href="./index.html">Home</a>
 </body>
